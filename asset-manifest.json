@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lofi-pomodoro/static/css/main.0eefb4d7.css",
+    "main.js": "/lofi-pomodoro/static/js/main.1995291e.js",
+    "index.html": "/lofi-pomodoro/index.html",
+    "main.0eefb4d7.css.map": "/lofi-pomodoro/static/css/main.0eefb4d7.css.map",
+    "main.1995291e.js.map": "/lofi-pomodoro/static/js/main.1995291e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0eefb4d7.css",
+    "static/js/main.1995291e.js"
+  ]
+}
