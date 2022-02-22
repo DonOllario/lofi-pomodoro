@@ -43,7 +43,7 @@ function TodoList() {
 
   return (
     <>
-      <h1>What's the Plan for Today?</h1>
+      <h1>Structure your time</h1>
       <ToDoCard onSubmit={addTodo} />
       <Todo
         todos={todos}

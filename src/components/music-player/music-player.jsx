@@ -1,9 +1,9 @@
-
+import './music-player.css'
 
 function MusicPlayer() {
     return (
       <iframe
-        className="rounded-lg"
+        className="music-player"
         width="560"
         height="315"
         src="https://www.youtube-nocookie.com/embed/5qap5aO4i9A?"

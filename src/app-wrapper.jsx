@@ -10,14 +10,15 @@ function AppWrapper() {
   
   return (
   <div>
-  <div>
+  
+    <main style={{height: '52vh'}}><PomodoroMain/></main>
+    <div>
       <MusicPlayer />
     </div>
-    <main><PomodoroMain/></main>
-    
     <div className='todo-app'>
       <TodoList />
     </div>
+    
   </div>
     
   );

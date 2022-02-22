@@ -1,0 +1,10 @@
+.music-player {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 520px;
+    background: #161a2b;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 10px;
+  }

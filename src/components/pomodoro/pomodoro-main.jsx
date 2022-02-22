@@ -10,7 +10,7 @@ function PomodoroMain() {
     const [breakMinutes, setBreakMinutes] = useState(15);
     
     return(
-        <div> 
+        <div className="wrapper">
             <SettingsContext.Provider value={{
                 showSettings,
                 setShowSettings,
@@ -21,7 +21,7 @@ function PomodoroMain() {
             }}>
                 {showSettings ? <Settings /> : <Timer />}
             </SettingsContext.Provider>
-      </div>
+         </div>
     );
 }
 
