@@ -10,8 +10,7 @@ function AppWrapper() {
   
   return (
   <div>
-  
-    <main style={{height: '52vh'}}><PomodoroMain/></main>
+    <div style={{height: '570px'}}><PomodoroMain/></div>
     <div>
       <MusicPlayer />
     </div>

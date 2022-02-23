@@ -10,7 +10,7 @@ function PomodoroMain() {
     const [breakMinutes, setBreakMinutes] = useState(15);
     
     return(
-        <div className="wrapper">
+        <div className="pomodoro-main">
             <SettingsContext.Provider value={{
                 showSettings,
                 setShowSettings,
