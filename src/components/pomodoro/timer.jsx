@@ -1,10 +1,12 @@
+
+import { useContext, useState, useEffect, useRef } from "react";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
 import PlayButton from "./play-button";
 import PauseButton from "./pause-button";
 import SettingsButton from "./settings-button";
-import { useContext, useState, useEffect, useRef } from "react";
 import SettingsContext from "./settings-context";
+
+import 'react-circular-progressbar/dist/styles.css';
 
 const red = '#f54e4e';
 const green = '#4aec8c';
@@ -48,12 +50,14 @@ function Timer() {
       if (secondsLeftRef.current === 0) {
         return switchMode();
       }
-
+      
       tick();
     },1000);
 
     return () => clearInterval(interval);
   }, [settingsInfo]);
+
+  
 
   const totalSeconds = mode === 'work'
     ? settingsInfo.workMinutes * 60
@@ -64,6 +68,8 @@ function Timer() {
   let seconds = secondsLeft % 60;
   if(seconds < 10) seconds = '0'+seconds;
 
+  
+  
   return (
     <div>
       <CircularProgressbar
@@ -72,7 +78,7 @@ function Timer() {
         styles={buildStyles({
         textColor:'#fff',
         pathColor:mode === 'work' ? red : green,
-        tailColor:'rgba(255,255,255,.2)',
+        trailColor:'#fff'
       })} />
       <div style={{marginTop:'20px'}}>
         {isPaused

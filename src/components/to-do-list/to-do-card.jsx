@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 
 function ToDoCard(props) {
   const [input, setInput] = useState(props.edit ? props.edit.value : '');

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import ToDoCard from './to-do-card';
 import { RiCloseCircleLine } from 'react-icons/ri';
 import { TiEdit } from 'react-icons/ti';
+
+import ToDoCard from './to-do-card';
 
 const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
   const [edit, setEdit] = useState({

@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+
 import ToDoCard from './to-do-card';
 import Todo from './to-do';
+
 import './to-do-list.css'
 
 function TodoList() {

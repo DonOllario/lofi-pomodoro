@@ -1,12 +1,11 @@
 
   :root{
-    
   --red: #f54e4e;
   --green: #4aec8c;
 }
 
 body{
-  color: #eee;
+  color: #fff;
 }
 .pomodoro-main{
   padding-top: 50px;
@@ -17,7 +16,7 @@ body{
 
 button{
   background-color: transparent;
-  color: rgba(255,255,255,0.8);
+  color: #fff;
   border:0;
   display: inline-block;
   width: 100px;
@@ -26,7 +25,8 @@ button{
 
 button.with-text{
   width: auto;
-  background-color:rgba(255,255,255,0.1);
+  background-color:#161a2b;
+  color: #fff;
   border-radius:10px;
   padding: 10px 20px;
   font-size: 1.4rem;
