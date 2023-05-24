@@ -3,6 +3,7 @@ import './music-player.css'
 function MusicPlayer() {
     return (
       <iframe 
+        className='music-player'
         width="560" 
         height="315" 
         src="https://www.youtube-nocookie.com/embed/jfKfPfyJRdk" 
