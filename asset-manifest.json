@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lofi-pomodoro/static/css/main.19557479.css",
-    "main.js": "/lofi-pomodoro/static/js/main.0515ff43.js",
+    "main.js": "/lofi-pomodoro/static/js/main.568566ea.js",
     "index.html": "/lofi-pomodoro/index.html",
     "main.19557479.css.map": "/lofi-pomodoro/static/css/main.19557479.css.map",
-    "main.0515ff43.js.map": "/lofi-pomodoro/static/js/main.0515ff43.js.map"
+    "main.568566ea.js.map": "/lofi-pomodoro/static/js/main.568566ea.js.map"
   },
   "entrypoints": [
     "static/css/main.19557479.css",
-    "static/js/main.0515ff43.js"
+    "static/js/main.568566ea.js"
   ]
 }
